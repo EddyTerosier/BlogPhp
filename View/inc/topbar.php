@@ -10,8 +10,8 @@
 
 				<ul class="right hide-on-med-and-down">
 
-					<li class="<?php echo ($_GET['a']=="index")?"active" : ""; ?>"><a href="<?=ROOT_URL?>">Accueil</a></li>
-					<li class="<?php echo ($_GET['a']=="chapters")?"active" : ""; ?>"><a href="<?=ROOT_URL?>chapters.php">Chapitres</a></li>
+					<li class="<?php echo ($_GET['a']=="index")?"active" : ""; ?>"><a href="<?=ROOT_URL?>blog_index.html">Accueil</a></li>
+					<li class="<?php echo ($_GET['a']=="chapters")?"active" : ""; ?>"><a href="<?=ROOT_URL?>blog_chapters.html">Chapitres</a></li>
 
 					<?php if (empty($_SESSION['is_admin']) && empty($_SESSION['is_user'])): ?>
 					<li><a href="<?=ROOT_URL?>blog_login.html" class="btn yellow waves-effect waves-light black-text">Connexion<i class="material-icons right">lock_open</i></a></li>
